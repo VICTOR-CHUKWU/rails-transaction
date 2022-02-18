@@ -2,9 +2,8 @@
 
 <%= render @group %>
 
-<div>
-  <%= link_to "Edit this group", edit_group_path(@group) %> |
-  <%= link_to "Back to groups", groups_path %>
-
-  <%= button_to "Destroy this group", @group, method: :delete %>
+<div class=" d-grid gap-2">
+  <%= link_to "Edit this group", edit_group_path(@group), class: "btn btn-success" %> 
+  <%= link_to "Back to groups", groups_path, class: "btn btn-secondary"  %>
+  <%= button_to "Delete this group", @group, method: :delete, class: "btn btn-danger w-100"  %>
 </div>
