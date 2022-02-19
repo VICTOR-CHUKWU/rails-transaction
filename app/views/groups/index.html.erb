@@ -12,5 +12,6 @@
 
 <div class=" d-grid gap-2">
   <%= link_to "New group", new_group_path, class: "btn btn-primary" %>
+  <%= link_to "Home",  user_path(@user.id), class: "btn btn-primary" %>
   <%= button_to "sign-out", destroy_user_session_path, method: :delete, class: "btn btn-danger w-100"  %>
 </div>
