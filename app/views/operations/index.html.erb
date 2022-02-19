@@ -6,9 +6,10 @@
   <% @operations.each do |operation| %>
     <%= render operation %>
     <p>
-      <%= link_to "Show this operation", operation %>
+      <%= link_to "Show this operation", operation, class: "btn btn-primary" %>
     </p>
   <% end %>
 </div>
-
-<%= link_to "New operation", new_operation_path %>
+<div class=" d-grid gap-2">
+ <%= link_to "New operation", new_operation_path, class: "btn btn-secondary" %>
+</div>

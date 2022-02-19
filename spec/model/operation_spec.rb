@@ -18,6 +18,5 @@ RSpec.describe Operation, type: :model do
 
   it 'test if operation has a valid amount' do
     expect(subject).to be_valid
-    
   end
 end
