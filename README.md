@@ -8,6 +8,14 @@ The Transaction app will be a classic example of a Transaction website. We creat
 * Rspec
 * Psql
 
+## Video
+This is the link to introductory Video: [Video](https://www.loom.com/share/a315c9a60e4249038aeb5b972461e529)
+
+
+## Live Link
+This is the link to heroku link: [Link](https://vic-transaction.herokuapp.com/)
+
+
 ## Getting Started
 
 ### Prerequisites
